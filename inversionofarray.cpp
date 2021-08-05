@@ -106,3 +106,6 @@ int main()
     cout << " Number of inversions are " << ans;
     return 0;
 }
+
+//T.C: O(nlogn)
+//S.C: O(n)
