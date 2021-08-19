@@ -1,4 +1,6 @@
-//Moore's voting algorithm
+//Moore's voting algorithm 
+//most optimised
+
 
 class Solution {
 public:
