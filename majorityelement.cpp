@@ -1,5 +1,5 @@
 //Moore's voting algorithm 
-//most optimised
+//most optimised solution
 
 
 class Solution {
