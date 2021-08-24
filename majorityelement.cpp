@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-    int majorityEle(vector<int>& nums) {
+    int majorityElement(vector<int>& nums) {
         int count = 0;
         int element = 0;
         for(int num : nums){
