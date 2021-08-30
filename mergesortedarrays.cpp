@@ -43,7 +43,7 @@ int main()
     merge(X, Y, m, n);
  
     cout << "X: "; printArray(X, m);
-    cout << "value of Y: "; printArray(Y, n);
+    cout << "Y: "; printArray(Y, n);
  
     return 0;
 }
