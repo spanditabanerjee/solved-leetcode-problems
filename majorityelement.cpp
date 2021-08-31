@@ -10,6 +10,7 @@ public:
         for(int num : nums){
             
             if(count == 0)
+            
             {element = num;}
             if(num == element)
             {
