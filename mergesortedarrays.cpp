@@ -21,7 +21,7 @@ void merge(int X[], int Y[], int m, int n)
             swap(X[i], Y[0]);
             int first = Y[0];
  
-           
+            
             int k;
             for (k = 1; k < n && Y[k] < first; k++) {
                 Y[k - 1] = Y[k];
@@ -31,6 +31,7 @@ void merge(int X[], int Y[], int m, int n)
         }
     }
 }
+
  
 int main()
 {
