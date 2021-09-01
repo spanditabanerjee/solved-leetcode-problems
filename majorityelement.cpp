@@ -13,10 +13,11 @@ public:
             
             {element = num;}
             if(num == element)
-            
+
             {
                 count+=1;
             }
+            
             else{count-=1;}
         }
         return element;
