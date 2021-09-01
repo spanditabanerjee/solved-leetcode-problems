@@ -13,6 +13,7 @@ public:
             
             {element = num;}
             if(num == element)
+            
             {
                 count+=1;
             }
