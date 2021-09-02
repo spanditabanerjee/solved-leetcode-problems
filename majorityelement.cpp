@@ -1,18 +1,17 @@
 //Moore's voting algorithm 
 //optimised solution
 
-
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int count = 0;
-        int element = 0;
+        int ele = 0;
         for(int num : nums){
             
             if(count == 0)
             
             {element = num;}
-            if(num == element)
+            if(num == ele)
 
             {
                 count+=1;
@@ -20,7 +19,8 @@ public:
             
             else{count-=1;}
         }
-        return element;
+        
+        return ele;
         
     }
 };
