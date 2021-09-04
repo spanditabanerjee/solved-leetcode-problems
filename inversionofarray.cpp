@@ -18,7 +18,7 @@ int main()
 {
     int arr[] = { 1, 20, 6, 4, 5 };
     int n = sizeof(arr) / sizeof(arr[0]);
-    cout << " Number of inversions are "
+    cout << " Number of inversions "
          << getInversionCount(arr, n);
     return 0;
 }
