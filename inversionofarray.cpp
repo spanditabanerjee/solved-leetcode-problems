@@ -63,6 +63,7 @@ int _mergeSort(int arr[], int temp[], int left, int right)
     }
     return inv_count;
 }
+
  
 int merge(int arr[], int temp[], int left, int mid,
           int right)
