@@ -72,7 +72,9 @@ int merge(int arr[], int temp[], int left, int mid,
     int inv_count = 0;
  
     i = left; /* i is index for left subarray*/
+
     j = mid; /* j is index for right subarray*/
+    
     k = left; /* k is index for resultant merged subarray*/
     while ((i <= mid - 1) && (j <= right)) {
         if (arr[i] <= arr[j]) {
