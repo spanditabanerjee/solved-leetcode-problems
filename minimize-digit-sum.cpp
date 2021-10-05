@@ -12,7 +12,7 @@ int sum(n,i)
     return temp;
 }
 
-int minbase(n,l,r)
+int minbase(n, l, r)
 {
     
 }
