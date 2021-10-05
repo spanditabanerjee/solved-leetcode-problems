@@ -2,7 +2,8 @@
 using namespace std;
 
 int sum(n,i)
-{
+{   
+    int temp;
     temp = 0; 
     while(n>0)
     {
@@ -14,5 +15,5 @@ int sum(n,i)
 
 int minbase(n, l, r)
 {
-    
+
 }
