@@ -10,7 +10,7 @@ public:
             
             if(count == 0)
             
-            {element = num;}
+            {ele = num;}
             if(num == ele)
 
             {
