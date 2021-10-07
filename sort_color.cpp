@@ -6,7 +6,6 @@ public:
         int mid=0;
         
         while(mid <= high){
-            
             switch(nums[mid]){
                 case 0:
                     swap(nums[low++],nums[mid++]);
