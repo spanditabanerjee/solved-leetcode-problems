@@ -26,7 +26,7 @@ public:
             }
             else
             {
-                st.push(stoi(i));
+                st.push(stoi(i));    //stoi converts string to integer
             }
         }
         while(st.size() != 0)
