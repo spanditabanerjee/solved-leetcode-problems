@@ -11,7 +11,7 @@ public class TreeNode {
         }
     }
 
-   public class Solution {
+   public class BSTtoGreaterTree {
    
        int s = 0;
        
