@@ -33,3 +33,5 @@ public:
 		return search(key) != table[h].end();
 	}
 };
+
+/* tc: O(N) */
