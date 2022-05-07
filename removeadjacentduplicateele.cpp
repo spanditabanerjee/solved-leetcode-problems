@@ -8,6 +8,7 @@ string res = "";
                 res.push_back(c);
         return res;
 }
+
 int main()
 {
     string s;
