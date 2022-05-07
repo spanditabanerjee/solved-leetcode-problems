@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 string removeDuplicates(string s) 
 {
 string res = "";
