@@ -1,3 +1,4 @@
+import java.util.*;
 public class NestedIterator implements Iterator<Integer> {
     Deque<NestedInteger> stack = new ArrayDeque<>();
     public NestedIterator(List<NestedInteger> nestedList) {
