@@ -5,6 +5,7 @@ public class NestedIterator implements Iterator<Integer> {
         prepareStack(nestedList);
     }
 
+
     @Override
     public Integer next() {
         if (!hasNext()) {
@@ -12,6 +13,7 @@ public class NestedIterator implements Iterator<Integer> {
         }
         return stack.pop().getInteger();
     }
+    
 
     @Override
     public boolean hasNext() {
